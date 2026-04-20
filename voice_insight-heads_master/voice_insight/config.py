@@ -10,49 +10,49 @@ API_KEY = "93baa974524e11ecbf630242ac130002"
 """配置调用闭源模型的请求信息"""
 if ENV in ["dev", "test"]:
     DEEPSEEK_MESSAGE = {
-        "deepseek_key": "sk-CQXhyeXAMjUVWWV8cJjn3wqSbDYTAUcJ",
-        "deepseek_url": "https://imodel.xfinfr.com/api/v1/chat/completions",
+        "deepseek_key": "",
+        "deepseek_url": "",
         "deepseek_model": "deepseek-v3.2-T",
     }
     OPENAI_MESSAGE = {
-        "openai_key": "b674de74992c44e18194611e78a175bd",
-        "openai_url": "https://gpt-aiad-shuziren.openai.azure.com/",
+        "openai_key": "",
+        "openai_url": "",
         "openai_model": "gpt-4o-2",
         "openai_api_version": "2024-08-01-preview",
         "openai_proxy": "http://172.16.59.106:7606"
     }
     GEMINI_MESSAGE = {
-        "key": "sk-IfFC2cn32iTgEDgSumH0XjZN3lALv3Np",
-        "url": "https://imodel.xfinfr.com/api/v1/chat/completions",
+        "key": "",
+        "url": "",
         "model": "gemini-3.0-flash",
     }
     GEMINI_MESSAGE_T = {
-        "key": "sk-IfFC2cn32iTgEDgSumH0XjZN3lALv3Np",
-        "url": "https://imodel.xfinfr.com/api/v1/chat/completions",
+        "key": "",
+        "url": "",
         "model": "gemini-3.1-flash-lite-preview",
     }
 
 elif ENV in ["online"]:
     DEEPSEEK_MESSAGE = {
-        "deepseek_key": "sk-CQXhyeXAMjUVWWV8cJjn3wqSbDYTAUcJ",
-        "deepseek_url": "https://imodel.xfinfr.com/api/v1/chat/completions",
+        "deepseek_key": "",
+        "deepseek_url": "",
         "deepseek_model": "deepseek-v3.2-T",
     }
     OPENAI_MESSAGE = {
-        "openai_key": "444898571b514f0286339e659124e872",
-        "openai_url": "https://gpt-aiad-shuziren.openai.azure.com/",
+        "openai_key": "",
+        "openai_url": "",
         "openai_model": "gpt-4o-2",
         "openai_api_version": "2024-08-01-preview",
         "openai_proxy": "http://172.21.51.30:3128"
     }
     GEMINI_MESSAGE = {
-        "key": "sk-IfFC2cn32iTgEDgSumH0XjZN3lALv3Np",
-        "url": "https://imodel.xfinfr.com/api/v1/chat/completions",
+        "key": "",
+        "url": "",
         "model": "gemini-3.0-flash",
     }
     GEMINI_MESSAGE_T = {
-        "key": "sk-IfFC2cn32iTgEDgSumH0XjZN3lALv3Np",
-        "url": "https://imodel.xfinfr.com/api/v1/chat/completions",
+        "key": "",
+        "url": "",
         "model": "gemini-3.1-flash-lite-preview",
     }
 
